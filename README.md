@@ -25,4 +25,8 @@ a) Logistische Regression
 b) Random Forest
 c) Boosting
 
-3. Feature Engineering
+3. Feature Engineering (wo möglich)
+a) Age -> Gruppen (besser für Tree Modelle)
+b) credit_score -> in ein Band einteilen
+c) estimated_salary -> in Quartile
+d) tenure -> hier Aufteilen in junge Kund:innen und alte Kund:innen
