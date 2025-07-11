@@ -16,17 +16,25 @@ estimated_salary -> Ja
 
 # Methodik
 1. Datensätze
- - Keine Anonymisierung
+- Keine Anonymisierung
 - Sensible Merkmale (Siehe oben) werden in Gruppen / Klassen zusammengefasst, wo möglich
 - Sensible Daten werden entfernt
 
-2. Modelle
-- Logistische Regression
-- Random Forest
-- Boosting
-
-3. Feature Engineering (wo möglich)
+2. Feature Engineering (wo möglich)
 - Age -> Gruppen (besser für Tree Modelle)
 - credit_score -> in ein Band einteilen
 - estimated_salary -> in Quartile
 - tenure -> hier Aufteilen in junge Kund:innen und alte Kund:innen
+- balance_salary_ratio -> Verhältnis Vermögen zu Einkommen
+- balance_product_ratio -> Durchschn. Vermögen pro Produkt
+- credit_score_age_ratio -> Risiko im Vergleich zum Alter
+
+3. Modelle
+- Logistische Regression
+- Random Forest
+- Boosting
+
+4. Metriken für die Messung
+- F1
+- Matthews Correlation Coefficient (MCC)
+- ROC

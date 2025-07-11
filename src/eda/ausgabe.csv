@@ -1,0 +1,31 @@
+,customer_id,credit_score,age,tenure,balance,products_number,credit_card,active_member,estimated_salary,churn,age_group,credit_score_group,salary_quartile,balance_salary_ratio,balance_product_ratio,credit_score_age_ratio,country_France,country_Germany,country_Spain,gender_Female,gender_Male,kunden_typ_Bestandskund:in,kunden_typ_Junge Kund:in,kunden_typ
+0,15634602,619,42,2,0.0,1,1,1,101348.88,1,31-50,1,3,0.0,0.0,14.738095238095237,True,False,False,True,False,True,False,Bestandskund:in
+1,15647311,608,41,1,83807.86,1,0,1,112542.58,0,31-50,1,3,0.7446769036217226,83807.86,14.829268292682928,False,False,True,True,False,False,True,Junge Kund:in
+2,15619304,502,42,8,159660.8,3,1,0,113931.57,1,31-50,0,3,1.4013745268322026,53220.26666666666,11.952380952380953,True,False,False,True,False,True,False,Bestandskund:in
+3,15701354,699,39,1,0.0,2,0,0,93826.63,0,31-50,1,2,0.0,0.0,17.923076923076923,True,False,False,True,False,False,True,Junge Kund:in
+4,15737888,850,43,2,125510.82,1,1,1,79084.1,0,31-50,2,2,1.5870550464631954,125510.82,19.767441860465116,False,False,True,True,False,True,False,Bestandskund:in
+5,15574012,645,44,8,113755.78,2,1,0,149756.71,1,31-50,1,4,0.7596038935417319,56877.89,14.659090909090908,False,False,True,False,True,True,False,Bestandskund:in
+6,15592531,822,50,7,0.0,2,1,1,10062.8,0,31-50,2,1,0.0,0.0,16.44,True,False,False,False,True,True,False,Bestandskund:in
+7,15656148,376,29,4,115046.74,4,1,0,119346.88,1,19-30,0,3,0.9639693974404694,28761.685,12.96551724137931,False,True,False,True,False,True,False,Bestandskund:in
+8,15792365,501,44,4,142051.07,2,0,1,74940.5,0,31-50,0,2,1.8955180443151567,71025.535,11.386363636363637,True,False,False,False,True,True,False,Bestandskund:in
+9,15592389,684,27,2,134603.88,1,1,1,71725.73,0,19-30,1,2,1.876647055387237,134603.88,25.333333333333332,True,False,False,False,True,True,False,Bestandskund:in
+10,15767821,528,31,6,102016.72,2,0,0,80181.12,0,31-50,0,2,1.2723284483928388,51008.36,17.032258064516128,True,False,False,False,True,True,False,Bestandskund:in
+11,15737173,497,24,3,0.0,2,1,0,76390.01,0,19-30,0,2,0.0,0.0,20.708333333333332,False,False,True,False,True,True,False,Bestandskund:in
+12,15632264,476,34,10,0.0,2,1,0,26260.98,0,31-50,0,1,0.0,0.0,14.0,True,False,False,True,False,True,False,Bestandskund:in
+13,15691483,549,25,5,0.0,2,0,0,190857.79,0,19-30,0,4,0.0,0.0,21.96,True,False,False,True,False,True,False,Bestandskund:in
+14,15600882,635,35,7,0.0,2,1,1,65951.65,0,31-50,1,2,0.0,0.0,18.142857142857142,False,False,True,True,False,True,False,Bestandskund:in
+15,15643966,616,45,3,143129.41,2,0,1,64327.26,0,31-50,1,2,2.2250195329320728,71564.705,13.688888888888888,False,True,False,False,True,True,False,Bestandskund:in
+16,15737452,653,58,1,132602.88,1,1,0,5097.67,1,51-65,1,1,26.01244882465911,132602.88,11.258620689655173,False,True,False,False,True,False,True,Junge Kund:in
+17,15788218,549,24,9,0.0,2,1,1,14406.41,0,19-30,0,1,0.0,0.0,22.875,False,False,True,True,False,True,False,Bestandskund:in
+18,15661507,587,45,6,0.0,1,0,0,158684.81,0,31-50,1,4,0.0,0.0,13.044444444444444,False,False,True,False,True,True,False,Bestandskund:in
+19,15568982,726,24,6,0.0,2,1,1,54724.03,0,19-30,1,2,0.0,0.0,30.25,True,False,False,True,False,True,False,Bestandskund:in
+20,15577657,732,41,8,0.0,2,1,1,170886.17,0,31-50,1,4,0.0,0.0,17.853658536585368,True,False,False,False,True,True,False,Bestandskund:in
+21,15597945,636,32,8,0.0,2,1,0,138555.46,0,31-50,1,3,0.0,0.0,19.875,False,False,True,True,False,True,False,Bestandskund:in
+22,15699309,510,38,4,0.0,1,1,0,118913.53,1,31-50,0,3,0.0,0.0,13.421052631578947,False,False,True,True,False,True,False,Bestandskund:in
+23,15725737,669,46,3,0.0,2,0,1,8487.75,0,31-50,1,1,0.0,0.0,14.543478260869565,True,False,False,False,True,True,False,Bestandskund:in
+24,15625047,846,38,5,0.0,1,1,1,187616.16,0,31-50,2,4,0.0,0.0,22.263157894736842,True,False,False,True,False,True,False,Bestandskund:in
+25,15738191,577,25,3,0.0,2,0,1,124508.29,0,19-30,1,3,0.0,0.0,23.08,True,False,False,False,True,True,False,Bestandskund:in
+26,15736816,756,36,2,136815.64,1,1,1,170041.95,0,31-50,2,4,0.8045993356345302,136815.64,21.0,False,True,False,False,True,True,False,Bestandskund:in
+27,15700772,571,44,9,0.0,2,0,0,38433.35,0,31-50,1,1,0.0,0.0,12.977272727272727,True,False,False,False,True,True,False,Bestandskund:in
+28,15728693,574,43,3,141349.43,1,1,1,100187.43,0,31-50,1,2,1.4108499439500544,141349.43,13.348837209302326,False,True,False,True,False,True,False,Bestandskund:in
+29,15656300,411,29,0,59697.17,2,1,1,53483.21,0,19-30,0,2,1.1161852476693153,29848.585,14.172413793103448,True,False,False,False,True,False,True,Junge Kund:in
