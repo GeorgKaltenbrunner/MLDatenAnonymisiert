@@ -13,12 +13,16 @@ def generate_customers(n):
     param n:  Anzahl der Kund:innen, welche generiert werden sollen
     return: pd.DataFrame mit CustomerID, name, Geburtsdatum, Emailadresse, Datum der Registrierung
     """
+
+    genders = ['Male', 'Female']
+
     customers = []
     for i in range(n):
         customers.append({
             "customer_id": f"CUST{i:05d}",
             "name": fake.name(),
             "birth_date": fake.date_of_birth(minimum_age=18, maximum_age=85),
+            "gender": fake.random_element(genders),
             "email": fake.email(),
             "address": fake.address(),
             "registration_date": fake.date_between(start_date='-10y', end_date='today')
