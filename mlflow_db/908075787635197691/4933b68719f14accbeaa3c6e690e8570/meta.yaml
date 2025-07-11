@@ -1,0 +1,14 @@
+artifact_uri: /Users/georgkaltenbrunner/python/MLDatenAnonymisiert/mlflowruns/908075787635197691/4933b68719f14accbeaa3c6e690e8570/artifacts
+end_time: 1752237804140
+entry_point_name: ''
+experiment_id: '908075787635197691'
+lifecycle_stage: active
+run_id: 4933b68719f14accbeaa3c6e690e8570
+run_name: Sk_Elasticnet
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752237802904
+status: 3
+tags: []
+user_id: georgkaltenbrunner

@@ -1,0 +1,10 @@
+artifact_location: /Users/georgkaltenbrunner/python/MLDatenAnonymisiert/mlflowruns/908075787635197691/models/m-a6b6c0ccf8ed432791d7b32d715e0c19/artifacts
+creation_timestamp: 1752237730614
+experiment_id: '908075787635197691'
+last_updated_timestamp: 1752237731834
+model_id: m-a6b6c0ccf8ed432791d7b32d715e0c19
+model_type: ''
+name: model
+source_run_id: d891edd6a3e34ac18665ab8ab4c8868d
+status: 2
+status_message: null

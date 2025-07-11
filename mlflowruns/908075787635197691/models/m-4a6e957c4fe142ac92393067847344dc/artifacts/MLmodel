@@ -1,0 +1,22 @@
+artifact_path: /Users/georgkaltenbrunner/python/MLDatenAnonymisiert/mlflowruns/908075787635197691/models/m-4a6e957c4fe142ac92393067847344dc/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+mlflow_version: 3.1.1
+model_id: m-4a6e957c4fe142ac92393067847344dc
+model_size_bytes: 879
+model_uuid: m-4a6e957c4fe142ac92393067847344dc
+prompts: null
+run_id: 4933b68719f14accbeaa3c6e690e8570
+utc_time_created: '2025-07-11 12:43:22.959346'
