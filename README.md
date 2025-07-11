@@ -16,17 +16,17 @@ estimated_salary -> Ja
 
 # Methodik
 1. Datensätze
-a) Keine Anonymisierung
-b) Sensible Merkmale (Siehe oben) werden in Gruppen / Klassen zusammengefasst, wo möglich
-c) Sensible Daten werden entfernt
+ - Keine Anonymisierung
+- Sensible Merkmale (Siehe oben) werden in Gruppen / Klassen zusammengefasst, wo möglich
+- Sensible Daten werden entfernt
 
 2. Modelle
-a) Logistische Regression
-b) Random Forest
-c) Boosting
+- Logistische Regression
+- Random Forest
+- Boosting
 
 3. Feature Engineering (wo möglich)
-a) Age -> Gruppen (besser für Tree Modelle)
-b) credit_score -> in ein Band einteilen
-c) estimated_salary -> in Quartile
-d) tenure -> hier Aufteilen in junge Kund:innen und alte Kund:innen
+- Age -> Gruppen (besser für Tree Modelle)
+- credit_score -> in ein Band einteilen
+- estimated_salary -> in Quartile
+- tenure -> hier Aufteilen in junge Kund:innen und alte Kund:innen
