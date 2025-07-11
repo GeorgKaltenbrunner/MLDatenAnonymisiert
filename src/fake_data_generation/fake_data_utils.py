@@ -7,10 +7,10 @@ from datetime import datetime, timedelta
 # Fake Data auf Deutsch verwenden
 fake = Faker("de_DE")
 
-def generate_customers(n=100):
+def generate_customers(n):
     """
     Diese Funktion erzeugt Fake Personen-Daten, die für die Kund:innen verwendet werden
-    param n: Deafult auf n = 100 gesetzt. Anzahl der Kund:innen, welche generiert werden sollen
+    param n:  Anzahl der Kund:innen, welche generiert werden sollen
     return: pd.DataFrame mit CustomerID, name, Geburtsdatum, Emailadresse, Datum der Registrierung
     """
     customers = []
@@ -37,7 +37,7 @@ def generate_products():
         {"product_id": "PRD004", "product_type": "Depot"}
     ])
 
-def generate_transactions(customers_df, products_df, n=1000):
+def generate_transactions(customers_df, products_df, n):
     """
     Diese Funktion erzeugt Fake Transaktionen.
     Diese Transaktionen bestehen aus 
@@ -50,11 +50,12 @@ def generate_transactions(customers_df, products_df, n=1000):
 
     param customer_df: Hier soll der Output aus der Methode generate_customers() eingesetezt werden
     param products_df: Hier soll der Output aus der Methode generate_products() eingesetzt werden
-    param n: Ist default auf 1000 gesetzt
+    param n: Anzahl der zu erzeugenden Transaktionen
     return: Ein pd.DataFrame das Fake-Transaktionen enthält
     """
     transactions = []
     for _ in range(n):
+        print(_)
         customer = customers_df.sample(1).iloc[0]
         product = products_df.sample(1).iloc[0]
         amount = round(np.random.normal(loc=100, scale=200), 2)
